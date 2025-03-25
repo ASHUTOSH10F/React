@@ -1,0 +1,265 @@
+body{
+  background-color: rgb(240 245 255);
+}
+.search-box
+{
+  text-align: center;
+}
+.search-box>span{
+  padding: 3px 25px;
+  border-radius: 20px;
+  background-color: rgb(142 176 240);
+
+}
+.fa-magnifying-glass
+{
+  color: white;
+}
+.search-box input::placeholder {
+  color: white; /* Change to your desired color */
+  opacity: 1; /* Ensures full opacity */
+}
+span>input
+{
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: rgb(142 176 240);
+}
+.Buttons
+{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.Buttons>button{
+  background-color: rgb(211 232 253);
+  font-weight: 500;
+  color: rgb(77 83 148);
+}
+.Header_icon
+{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+  color: rgb(77 83 148);
+}
+
+/* -----------Navbar----------- */
+.Navbar-box
+{
+  padding: 5px 30px;
+  background-color:  rgb(211 232 253);
+  border-radius: 10px 10px 0px 0px;
+}
+.first-btn
+{
+  background-color: rgb(24 64 174);
+  color: white;
+  font-weight: 500;
+}
+.table-bordered
+{
+  border: 1px solid skyblue;
+  border-radius: 5px !important;
+}
+td{
+  width: 200px;
+  text-align: center;
+  font-weight: 500;
+}
+.whitebox{
+  background-color: white;
+    margin-top: -7px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+/* input filed  */
+.voucher-form {
+  display: flex;
+  gap: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-field {
+  position: relative;
+  flex: 1;
+}
+
+label,.form-label {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  background-color: #fff;
+  padding: 0 5px;
+  font-size: 12px;
+  color: #555;
+}
+
+.abc {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.abc:focus
+ {
+  border-color: #4A90E2;
+  outline: none;
+}
+
+
+/* business */
+/* styles/styles.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.heading {
+  color: #2C3E50;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info-icon {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.business-details {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.address {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+
+/* item details */
+/* styles/styles.css */
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.table-heading {
+  color: #2C3E50;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info-icon {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.item-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.item-table th, .item-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.item-table th {
+  background-color: #0033cc;
+  color: white;
+}
+
+.item-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.col-sm-6>.table-footer
+{
+  justify-content: end;
+}
+.add-btn, .next-btn {
+  padding: 10px 20px;
+  background-color: #0033cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-btn {
+  font-size: 1.5rem;
+}
+
+.total-amount {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.total-amount p {
+  color: #6c757d;
+}
+
+.total-amount h3 {
+  color: #0033cc;
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.page-one-box
+{
+  background-color: red;
+}
+/* ----------------------------------------------------- */
+
+
+/* PAGE 2 CSS START HERE  */
+.Nav_btn>button
+{
+  background-color: transparent;
+  border: none;
+}
+.Nav_btn
+{
+  display: flex;
+      justify-content: space-around;
+      border: 1px solid skyblue;
+      border-radius: 7px;
+}
